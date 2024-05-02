@@ -1,0 +1,140 @@
+;----------------------------------------
+; Owner MohamedSubarashi
+;----------------------------------------
+; Owner Url https://www.facebook.com/MohamedSubarashi
+;----------------------------------------
+; Theme Url https://github.com/Mohamedsubarashi/IslamicTheme
+;----------------------------------------
+; Copyright � Microsoft Corp.
+
+[Theme]
+; Windows 7 - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=IslamicTheme
+ThemeId={8A76EF2E-52CA-4D07-BF71-716367835B23}
+BrandImage=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\IslamicTheme.png
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+No=%SystemRoot%\cursors\aero_unavail.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+DefaultValue=Windows Aero
+
+[Control Panel\Desktop]
+Wallpaper=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\DesktopBackground\01.jpg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+ColorizationColor=0X653D10
+AutoColorization=1
+Transparency=1
+Composition=1
+VisualStyleVersion=10
+AppMode=Dark
+SystemMode=Dark
+
+
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Islamic
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_islamic.wav
+[AppEvents\Schemes\Apps\.Default\ChangeTheme]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_changetheme.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_batterycritical.wav
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_deviceinsert.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_deviceremove.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_devicefail.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_islamic.wav
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_batterylow.wav
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_mailbeep.wav
+[AppEvents\Schemes\Apps\.Default\PrintComplete]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_logon_coastal_ambience1.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_asterisk-error.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemExit]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_shutdown_coastal_ambience3.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_criticalstop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_notification.wav
+[AppEvents\Schemes\Apps\.Default\WindowsLogoff]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_logoff_marina_ambience1.wav
+[AppEvents\Schemes\Apps\.Default\WindowsLogon]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_logon_coastal_ambience1.wav
+
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_maximize.wav
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_minimize.wav
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_restoreDown.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_restoreUp.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_uac-pub.wav
+[AppEvents\Schemes\Apps\Explorer\BlockedPopup]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_uac-pub.wav
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_recycle.wav
+[AppEvents\Schemes\Apps\Explorer\FaxError]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_ding.wav
+[AppEvents\Schemes\Apps\Explorer\FeedDiscovered]
+DefaultValue=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\IslamicWi\i_discoverfeed.wav
+
+
+
+
+
+
+[Slideshow]
+ImagesRootPIDL=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
+
+Interval=1000000
+Shuffle=1
